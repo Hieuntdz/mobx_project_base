@@ -1,26 +1,3 @@
 {
-  "tutorial": "Help/Tip",
-  "done": "Done",
-  "back": "Back",
-  "template": "Template",
-  "gallery": "Gallery",
-  "more": "More",
-  "rate": "Rate",
-  "preview": "Preview",
-  "save": "Save",
-  "share": "Share",
-  "error_occurred": "An error occurred",
-  "loading": "Loading",
-  "save_success": "Save success",
-  "Save_failed": "Save failed",
-  "theme": "Theme",
-  "input_name": "Input name",
-  "input_des": "Input Description, skill",
-  "input_wanted_money": "Input wanted money",
-  "input_value": "input value",
-  "click_to_edit": "Click to edit",
-  "wanted_name": "Wanted name",
-  "card_name": "Card name",
-  "card_des": "Card description",
-  "more_app": "More app"
+  "language": "English"
 }

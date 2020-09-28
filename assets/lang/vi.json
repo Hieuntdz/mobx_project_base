@@ -1,26 +1,3 @@
 {
-  "tutorial": "Hướng dẫn",
-  "done": "Xong",
-  "back": "Quay lại",
-  "template": "Mẫu",
-  "gallery": "Thư viện",
-  "more": "Thêm",
-  "rate": "Đánh giá",
-  "preview": "Xem trước",
-  "save": "Lưu",
-  "share": "Chia sẻ",
-  "error_occurred": "Có lỗi sảy ra",
-  "loading": "Loading",
-  "save_success": "Lưu thành công",
-  "Save_failed": "Lưu thất bại",
-  "theme": "Theme",
-  "input_name": "Nhập tên",
-  "input_des": "Nhập mô tả, kỹ năng",
-  "input_wanted_money": "Nhập số tiền thưởng",
-  "input_value": "Nhập giá trị",
-  "click_to_edit": "Click để sửa",
-  "wanted_name": "Tên truy lã",
-  "card_name": "Card name",
-  "card_des": "Mô tả card",
-  "more_app": "App khác"
+  "language": "Vietnamese"
 }

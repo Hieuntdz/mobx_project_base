@@ -2,17 +2,26 @@ import 'package:mobx/mobx.dart';
 import 'package:mobxprojectteamplate/repository/repository.dart';
 import 'package:mobxprojectteamplate/theme/themes.dart';
 
-part 'theme_store.g.dart';
+part 'app_store.g.dart';
 
-class ThemeStore = _ThemeStore with _$ThemeStore;
+class AppStore = _AppStore with _$AppStore;
 
-abstract class _ThemeStore with Store {
+abstract class _AppStore with Store {
   Repository _repository;
 
+  //Language
+  @observable
+  String language = 'en';
+
+  @action
+  void setLang(String lang) {
+    this.language = lang;
+  }
+
+  //Theme
+  BaseTheme appTheme = LightTheme();
   @observable
   bool useDarkMode = true;
-
-  BaseTheme appTheme = LightTheme();
 
   @action
   setDarkTheme() {
@@ -28,7 +37,7 @@ abstract class _ThemeStore with Store {
     _repository.setDarkMode(false);
   }
 
-  _ThemeStore(Repository repository) {
+  _AppStore(Repository repository) {
     this._repository = repository;
     bool mode = _repository.getIsDarkMode();
     if (mode) {
